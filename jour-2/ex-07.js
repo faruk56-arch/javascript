@@ -1,5 +1,6 @@
 
 
+
 const password = "azerty";
 
 if(password.length > 5) {
