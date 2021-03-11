@@ -1,11 +1,17 @@
 
 
 
+
+
 function addUp(num) {
-    
-    while (num === 1) {
-        num++;
+    console.log(num);
+    var total = 0;
+    for(var i = 1;  i <= num ; i++) {
+
+       var total =  total + i;
     }
+    console.log(total)
+    
 }
 
-addUp(12);
+addUp(10);

@@ -14,4 +14,4 @@ function compare(num1, num2) {
     }
 }
 
-compare(10, 10);
+compare(50, 50);
