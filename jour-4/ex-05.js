@@ -14,4 +14,4 @@ function addUp(num) {
     
 }
 
-addUp(10);
+addUp(12);
