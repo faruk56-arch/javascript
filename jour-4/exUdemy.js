@@ -1,19 +1,18 @@
 
 
-const premierClass = document.getElementsByClassName('premier-titre');
-
-const premierID = document.getElementById('premier-ID');
-const titreNew = document.querySelector('.premier-titre');
 
 
-const allList = document.querySelectorAll('.item-list');
+const liste = document.querySelector('.premier-titre');
+liste.innerText = 'Hello to the whole world';
+const allItem = document.querySelectorAll('li');
 
-
-
+const parent = document.querySelector('.parent');
+parent.innerHTML = '<h1>text</h1>';
 
 
 
-console.log(titreNew);
-console.log(premierClass);
-console.log(premierID);
-console.log(allList);
+let newItem = document.createElement('li');
+newItem.innerText = 'Nouvel item !';
+liste.appendChild(newItem);
+
+liste.remove();
