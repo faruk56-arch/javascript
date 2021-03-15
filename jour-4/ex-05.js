@@ -4,7 +4,7 @@
 
 
 function addUp(num) {
-    console.log(num);
+    // console.log(num);
     var total = 0;
     for(var i = 1;  i <= num ; i++) {
 

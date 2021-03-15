@@ -1,8 +1,8 @@
 
 
 function compare(num1, num2) {
-    console.log(num1);
-    console.log(num2);
+    // console.log(num1);
+    // console.log(num2);
 
     if (num1 > num2) {
         console.log("num1 is bigger");
@@ -14,4 +14,4 @@ function compare(num1, num2) {
     }
 }
 
-compare(50, 50);
+compare(51, 50);

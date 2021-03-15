@@ -1,18 +1,11 @@
 
 
 
+const carre = n => n * n;
 
-const liste = document.querySelector('.premier-titre');
-liste.innerText = 'Hello to the whole world';
-const allItem = document.querySelectorAll('li');
+const returnType = n => typeof n;
 
-const parent = document.querySelector('.parent');
-parent.innerHTML = '<h1>text</h1>';
-
-
-
-let newItem = document.createElement('li');
-newItem.innerText = 'Nouvel item !';
-liste.appendChild(newItem);
-
-liste.remove();
+const manThd = (val, carre, type) => {
+    let valFinale;
+    valFinale = carre(val);
+}

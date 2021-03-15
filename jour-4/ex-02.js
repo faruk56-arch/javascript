@@ -13,4 +13,6 @@ const cat = {
 }
 const cats = [cat2, cat];
 // console.log(cat.age);
-console.log(cat2.isCute);
+// console.log(cat2.isCute);
+
+console.log(cats[1].isCute);
