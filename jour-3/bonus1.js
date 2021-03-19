@@ -3,21 +3,19 @@ const limit = 100;
 
 for(var i = 0; i <= limit; i++) {
 
-    console.log(i);
+    if(i % 3 === 0) {
+        console.log("fizz");
+    } else if(i % 5 === 0) {
+        console.log("buzz");
+    } else if(i % 3 === 0 && i % 5 === 0) {
+        console.log("fizzbuzz");
+    } else if(i % 7 === 0) {
+        
+    }
+
 }
 
-var i = 15;
 
-if(i = 3) {
-    console.log("fizz");
-} else if(i => 5) {
-    console.log("buzz");
-} else if(i => 15) {
-    console.log("fizzbu");
-} else if(i => 7) {
-    console.log();
-} else {
-    console.log(i);
-}
+// console.log(i);
 
-  
+
