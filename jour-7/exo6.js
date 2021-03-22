@@ -33,7 +33,7 @@ const cakes = [
        return x.flavor == "chocolate";
    })
 
-   .map(function(y) {
+   choco.map(function(y) {
        return y.status = "sold out";
 
    })
