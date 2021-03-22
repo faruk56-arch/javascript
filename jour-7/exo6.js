@@ -34,8 +34,8 @@ const cakes = [
    })
 
    choco.map(function(y) {
-       return y.status = "sold out";
+        y.status = "sold out";
+	    console.log(y);
 
    })
 
-   console.log(choco);
